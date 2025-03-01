@@ -28,6 +28,7 @@ h2 {
     margin-top: 20px;
 }
 
+
 #player-container {
     background-color: #2e2e2e;
     padding: 20px;
@@ -127,4 +128,32 @@ button:hover {
 #lista-canciones li.playing {
     color: #000000;
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #player-container {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    #controls {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #playlist {
+        width: 100%;
+        max-width: 350px;
+    }
 }
