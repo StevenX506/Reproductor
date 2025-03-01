@@ -1,7 +1,7 @@
 const canciones = [
-    { nombre: "Children of the Elder God", archivo: "mp3/Children of the Elder God.mp3" },
-    { nombre: "Footsteps", archivo: "mp3/Cryptex - Footsteps.mp3" },
-    { nombre: "I'm Still Standing", archivo: "mp3/Elton John - I'm Still Standing.mp3" }
+    { nombre: "Fly Me To The Moon", archivo: "mp3/Fly Me To The Moon.mp3" },
+    { nombre: "Somebody Told Me", archivo: "mp3/Somebody Told Me.mp3" },
+    { nombre: "I'm Still Standing", archivo: "mp3/I'm Still Standing.mp3" }
 ];
 
 let cancionActual = 0;

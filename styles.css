@@ -143,8 +143,8 @@ button:hover {
     }
 
     #playlist {
-        max-height: 100px; /* Limita la altura para evitar que se desborde */
-        overflow-y: auto; /* Permite desplazamiento si hay muchas canciones */
+        max-height: 100px; 
+        overflow-y: auto;
     }
 
     #controls {
@@ -154,6 +154,7 @@ button:hover {
     }
 
     button {
+        
         width: 100%;
     }
 }
