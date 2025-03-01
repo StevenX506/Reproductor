@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Tarea de investigación</h1>
+    <h2 id="title">Reproductor</h2>
+
+    <div id="container">
+        <div id="playlist">
+            <h3>Lista de Canciones</h3>
+            <ul id="lista-canciones"></ul>
+        </div>
+
+        <div id="player-container">
+            <div id="nombre-cancion">Nombre de la canción</div>
+            <audio id="audio" controls>
+                Este navegador no soporta este elemento.
+            </audio>
+            <div id="controls">
+                <button id="anterior">⏮️ Anterior</button>
+                <button id="play-pausa">▶️ Reproducir</button>
+                <button id="siguiente">⏭️ Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
