@@ -137,9 +137,14 @@ button:hover {
         gap: 10px;
     }
 
-    #player-container {
+    #player-container, #playlist {
         width: 100%;
         max-width: 350px;
+    }
+
+    #playlist {
+        max-height: 200px; /* Limita la altura para evitar que se desborde */
+        overflow-y: auto; /* Permite desplazamiento si hay muchas canciones */
     }
 
     #controls {
@@ -150,10 +155,5 @@ button:hover {
 
     button {
         width: 100%;
-    }
-
-    #playlist {
-        width: 100%;
-        max-width: 350px;
     }
 }
